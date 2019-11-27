@@ -1,0 +1,83 @@
+{
+  "y19" : {
+    "monthes" : {
+      "m01" : {
+        "name" : "jun",
+        "number" : "01",
+        "passed" : "true",
+        "totalMinutes" : "5556",
+        "weekes" : {
+          "w01" : {
+            "days" : {
+              "d01" : {
+                "checkIn" : "2019-11-05T16:50:00",
+                "name" : "sun",
+                "number" : "02",
+                "passed" : "true",
+                "totalMinutes" : "2365"
+              },
+              "d02" : {
+                "checkIn" : "2019-11-06T16:50:00",
+                "name" : "sun",
+                "number" : "03",
+                "passed" : "true",
+                "totalMinutes" : "2365"
+              },
+              "d03" : {
+                "name" : "fri",
+                "number" : "02",
+                "passed" : "true",
+                "totalMinutes" : "23"
+              }
+            },
+            "name" : "",
+            "number" : "01",
+            "passed" : "true",
+            "totalMinutes" : "6532"
+          },
+          "w02" : {
+            "days" : {
+              "d01" : {
+                "checkIn" : "2019-11-09T16:50:00",
+                "name" : "mon",
+                "number" : "04",
+                "passed" : "true",
+                "totalMinutes" : "2365"
+              }
+            },
+            "name" : "",
+            "number" : "04",
+            "passed" : "true",
+            "totalMinutes" : "6532"
+          }
+        }
+      },
+      "m02" : {
+        "name" : "oct",
+        "number" : "10",
+        "passed" : "true",
+        "totlMinutes" : "55896",
+        "weekes" : {
+          "w01" : {
+            "days" : {
+              "d01" : {
+                "name" : "mon",
+                "number" : "02",
+                "passed" : "true",
+                "totlMinutes" : "695"
+              }
+            },
+            "name" : "",
+            "number" : "02",
+            "passed" : "true",
+            "totlMinutes" : "51225"
+          }
+        }
+      }
+    },
+    "name" : "any",
+    "number" : "2019",
+    "passed" : "true",
+    "totlMinutes" : "789456"
+  }
+}

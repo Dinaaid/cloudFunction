@@ -1,0 +1,32 @@
+<ion-content>
+	<ion-card *ngFor="let employee of filteredEmployee">
+		<ion-item lines="none" (click)="selectedEmployee(employee._id)">
+			<ion-avatar slot="start">
+				<img
+					[src]="employee.image ? employee.image : 'assets/images/avatar.png'"
+				/>
+			</ion-avatar>
+			<ion-label>
+				<h3>{{ employee.fullName }}</h3>
+				<p>{{ employee.jobTitle }}</p>
+			</ion-label>
+			<ion-buttons
+				class="card-buttons"
+				(click)="showEdite($event, employee._id)"
+			>
+				<ion-icon name="create"></ion-icon>
+			</ion-buttons>
+			<ion-buttons
+				class="block-icon"
+				(click)="blockEmployee($event, employee)"
+				*ngIf="!isBlocked"
+			>
+				<ion-icon
+					*ngIf="!employee.isBlocked"
+					name="remove-circle-outline"
+				></ion-icon>
+				<ion-icon *ngIf="employee.isBlocked" name="remove-circle"></ion-icon>
+			</ion-buttons>
+		</ion-item>
+	</ion-card>
+</ion-content>
